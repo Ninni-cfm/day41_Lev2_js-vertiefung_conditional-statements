@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="game1" action="">
+        <fieldset>
+            <fieldset>
+                <legend>&nbsp;John&nbsp;</legend>
+                <input type="number" name="sizeJohn" id="sizeJohn" placeholder="Size John"><br>
+                <input type="number" name="ageJohn" id="ageJohn" placeholder="Age John">
+            </fieldset>
+            <fieldset>
+                <legend>&nbsp;Meike&nbsp;</legend>
+                <input type="number" name="sizeMeike" id="sizeMeike" placeholder="Size Meike"><br>
+                <input type="number" name="ageMeike" id="ageMeike" placeholder="Age Meike">
+            </fieldset>
+            <input type="button" value="Play" onclick="playGame()">
+            <fieldset>
+                <legend>&nbsp;Result&nbsp;</legend>
+                <p>Points John: <span id="pointsJohn">0</span></p>
+                <p>Points Meike: <span id="pointsMeike">0</span></p>
+                <p>Result: <span id="resultGame"> </span></p>
+            </fieldset>
+        </fieldset>
+    </form>
+    <p>&nbsp;
+    </p>
+    <hr>
+    <form id="difference" action="">
+        <fieldset>
+            <legend>&nbsp;Difference to 27&nbsp;</legend>
+            <input type="number" name="numDiff" id="numDiff" placeholder="Number"><br>
+            <input type="button" value="Check Difference" onclick="checkDifference()">
+            <p>Difference: <span id="resultDiff"> </span></p>
+        </fieldset>
+    </form>
+
+    <p>&nbsp;
+    </p>
+    <hr>
+    <form id="sum" action="">
+        <fieldset>
+            <legend>&nbsp;Sum&nbsp;</legend>
+            <input type="number" name="numSum1" id="numSum1" placeholder="Number"><br>
+            <input type="number" name="numSum2" id="numSum2" placeholder="Number"><br>
+            <input type="button" value="Sum values" onclick="sumValues()">
+            <p>Sum: <span id="resultSum"> </span></p>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
